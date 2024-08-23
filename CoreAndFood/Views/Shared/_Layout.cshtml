@@ -1,0 +1,84 @@
+﻿@using CoreAndFood.Data.Models;
+@using Microsoft.AspNetCore.Http;
+@using Newtonsoft.Json;
+
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse" style="border-radius: 0">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/Default/Index">Core And Food</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="/Category/Index">Category</a></li>
+				<li><a href="/Food/Index">Food</a></li>
+				<li><a href="/Chart/Index">Google Pie Chart</a></li>
+				<li><a href="/Chart/Index2">Google Column Chart</a></li>
+				<li><a href="#">Popup</a></li>
+				<li><a href="/Chart/Statistics">Statistics</a></li>
+				<li><a href="#">Settings</a></li>
+				<li><a href="/Login/LogOut">Log Out</a></li>
+			</ul>
+			<div class="navbar-header navbar-right">
+				<a class="navbar-brand" href="#">@ViewBag.message</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		@RenderBody()
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			function checkCategoryInputs() {
+				console.log("DEBUG")
+				let isNameEmpty = $('#categoryName').val().trim() === '';
+				let isDescriptionEmpty = $('#categoryDescription').val().trim() === '';
+				$('#addCategorySaveButton').prop('disabled', isNameEmpty || isDescriptionEmpty);
+			}
+
+			function checkFoodInputs() {
+				let isNameEmpty = $('#foodName').val().trim() === '';
+				let isDescriptionEmpty = $('#foodDescription').val().trim() === '';
+				let isStockEmpty = $('#foodStock').val().trim() === '';
+				let isPriceEmpty = $('#foodPrice').val().trim() === '';
+				let isImageEmpty = $('#foodImage').val().trim() === '';
+				$('#addFoodSaveButton').prop('disabled', isNameEmpty || isDescriptionEmpty || isStockEmpty || isPriceEmpty || isImageEmpty);
+			}
+
+			function checkInputs() {
+				switch (window.location.pathname) {
+					case '/Category/CategoryAdd':
+						checkCategoryInputs();
+						break;
+					case '/Food/AddFood':
+						checkFoodInputs();
+						break;
+				}
+			}
+
+			$(".form-control").on('input', function () {
+				checkInputs();
+			})
+
+			checkInputs();
+
+		});
+	</script>
+</body>
+</html>

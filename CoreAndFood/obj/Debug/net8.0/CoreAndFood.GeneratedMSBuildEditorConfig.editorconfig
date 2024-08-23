@@ -1,0 +1,87 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CoreAndFood
+build_property.RootNamespace = CoreAndFood
+build_property.ProjectDir = C:\Users\honur\Desktop\backend\CoreAndFood\CoreAndFood\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\honur\Desktop\backend\CoreAndFood\CoreAndFood
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Category/CategoryAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Category/CategoryGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlHZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Chart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Chart/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcSW5kZXgyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Chart/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhcnRcU3RhdGlzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Default/Components/CategoryGetList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxDb21wb25lbnRzXENhdGVnb3J5R2V0TGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Default/Components/FoodGetList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxDb21wb25lbnRzXEZvb2RHZXRMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Food/AddFood.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxBZGRGb29kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Food/FoodGet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxGb29kR2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Food/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/honur/Desktop/backend/CoreAndFood/CoreAndFood/Views/Shared/_SiteLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaXRlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
